@@ -1,3 +1,4 @@
+import type { PostMetadata } from "$lib/types.js";
 import { error } from "@sveltejs/kit";
 import type { Component } from "svelte";
 
@@ -13,11 +14,12 @@ export async function entries() {
 export async function load({ params }) {
   try {
     const post = await import(`$lib/posts/${params.slug}.svx`);
-    const metadata = post.metadata as Record<string, any>;
+    const metadata = post.metadata as PostMetadata;
     return {
       content: post.default as Component,
       metadata,
-      title: metadata.title
+      title: metadata.title,
+      description: metadata.summary
     };
   } catch {
     throw error(404, "Post not found");

@@ -19,10 +19,18 @@
 	import './globals.css';
 
 	const { children } = $props();
+
+	const title = $derived((page.data.title ?? page.error?.message) + " - Kino no Tabi PS2 Translation Project");
+	const description = $derived(page.data.description ?? "The home page of the Kino no Tabi PS2 Translation Project.");
 </script>
 
 <svelte:head>
-	<title>{page.data.title ?? page.error?.message} - Kino no Tabi PS2 Translation Project</title>
+	<title>{title}</title>
+	<meta name="description" content={description}>
+
+	<meta property="og:url" content="https://kino.leadrdrk.com{page.url.pathname}" />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
 </svelte:head>
 
 <div class="bg">
