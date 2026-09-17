@@ -13,7 +13,8 @@ jobs:
 
       - name: Install pnpm + Node.js and install dependencies
         uses: pnpm/setup@v2
-        cache: true
+        with:
+          cache: true
 
       - name: Build
         run: |
