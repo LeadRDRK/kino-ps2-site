@@ -1,0 +1,13 @@
+:root {
+    --font-serif: 'Noto Serif', 'Noto Serif CJK JP', 'Noto Serif JP', /* prefer system installed noto fonts */
+        'Noto Serif Variable', 'Noto Serif JP Variable',
+        Georgia, 'Times New Roman', Times, serif;
+    --font-sans-cond: 'Oswald', 'Oswald Variable',
+        'Roboto Condensed', 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 15px;
+}

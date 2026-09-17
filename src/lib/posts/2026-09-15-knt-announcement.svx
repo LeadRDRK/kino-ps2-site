@@ -1,0 +1,31 @@
+---
+title: "Announcing the Kino's Journey -the Beautiful World- (PS2) Translation Project"
+summary: After 23 years... better late than never.
+date: 2026-09-15
+---
+
+<script context="module">
+    import thumbnail from "$lib/assets/game-cover.png";
+    import screen1 from "$lib/assets/blog/1/knt_screen1.jpg";
+    import screen2 from "$lib/assets/blog/1/knt_screen2.jpg";
+    import screen3 from "$lib/assets/blog/1/knt_screen3.jpg";
+
+    metadata.thumbnail = thumbnail;
+</script>
+
+We're glad to announce that we have begun translating Kino's Journey -the Beautiful World- (*キノの旅 -the Beautiful World-*) for the PS2! Work has been ongoing since July 2026, with the project finally gaining momentum in September 2026.
+
+A visual novel developed by Tycoon and published by MediaWorks in 2003, the game features fully voiced direct adaptations of stories from the light novel, with extra stories that have never been seen anywhere else before.
+
+Check out our blog for progress updates!
+
+Team members:
+- **Project Lead:** LeadRDRK
+- **Translators:** SONICMAN69, NostalgiaWitch, shambho
+
+Learn more about the team on the [About](/about) page.
+
+Some development screenshots (translations are subject to change):
+![Screenshot]({screen1})
+![Screenshot]({screen2})
+![Screenshot]({screen3})
