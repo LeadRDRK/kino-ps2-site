@@ -36,7 +36,7 @@
             (<a target="_blank" href="https://agtteam.net/author/sonicman69/">AGT Team</a> /
             <a target="_blank" href="https://bsky.app/profile/did:plc:ardtdwmtfn6f4lr7k3moqkpr">Bluesky</a>)
             <p>
-                Lead translator of Fullmetal Alchemist 3 and Space Fisherman at the AGT Team, among other games.
+                Lead translator of Fullmetal Alchemist 3 and Space Fishermen at the AGT Team, among other games.
             </p>
         </li>
         <li>
