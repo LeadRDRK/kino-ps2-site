@@ -40,8 +40,8 @@
             </p>
         </li>
         <li>
-            <b>NostalgiaWitch</b>
-            (<a target="_blank" href="https://www.baka-tsuki.org/project/index.php?title=User:Ella.servantes">Ella.servantes @ Baka-Tsuki</a>)
+            <b>Ella</b>
+            (<a target="_blank" href="https://www.baka-tsuki.org/project/index.php?title=User:Ella.servantes">Baka-Tsuki</a>)
             <p>
                 Fan translator of the Kino no Tabi light novels on Baka-Tsuki.
             </p>
