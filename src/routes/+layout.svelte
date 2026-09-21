@@ -128,10 +128,10 @@
 	.banner {
 		width: 100%;
 		display: flex;
-		height: 150px;
+		height: 128px;
 		background-color: #fff;
 		border-radius: 4px 4px 0 0;
-		margin-bottom: -74px;
+		margin-bottom: -52px;
 	}
 
 	.banner-logo {
