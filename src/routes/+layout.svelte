@@ -11,6 +11,7 @@
 	import MdiController from '~icons/mdi/controller';
 	import MdiTextBoxEdit from '~icons/mdi/text-box-edit';
 	import MdiInformation from '~icons/mdi/information';
+	import MdiTools from '~icons/mdi/tools';
     import { page } from '$app/state';
 	import '@fontsource-variable/oswald/wght.css';
 	import '@fontsource-variable/noto-serif/wght.css';
@@ -63,6 +64,11 @@
 				<a href="/about" class:active={page.route.id == "/about"}>
 					<MdiInformation /> About
 				</a>
+				{#if page.route.id?.startsWith("/_dev")}
+					<a href={page.url.pathname} class="active">
+						<MdiTools /> Super secret dev tools
+					</a>
+				{/if}
 			</nav>
 
 			<main>
